@@ -1,7 +1,7 @@
 // link to question - https://www.codechef.com/JULY19B/problems/CHFM/
 
 #include <bits/stdc++.h>
-#define eps 1e-6
+
 using namespace std;
 
 void testcase() {
@@ -15,7 +15,6 @@ void testcase() {
 	long long int sum = accumulate(a.begin(), a.end(), 0LL);			
 	
 	for (int i = 0; i < n; i++) {				
-		//abs((1.0 * sum) / n - (1.0 * (sum - a[i])) / (n - 1)) < eps
 		if (sum*(n-1)==(sum-a[i])*n) {
 			cout << i+1;
 			return;

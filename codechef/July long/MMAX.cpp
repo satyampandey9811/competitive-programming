@@ -33,8 +33,7 @@ void testcase() {
 		ans = ans % n;
 	}
 	ans = ans % n;
-	
-	
+		
 	int x = ans, y = n - ans;
 	
 	vector<int> a;

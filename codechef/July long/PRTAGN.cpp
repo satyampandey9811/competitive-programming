@@ -53,9 +53,7 @@ void testcase() {
 		}
 
 		cout << e1 << ' ' << o1 << endl;
-
 	}
-
 }
 
 int main() {
