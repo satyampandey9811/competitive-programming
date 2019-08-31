@@ -1,5 +1,7 @@
 // linked list
 // reverse a linked list iterative
+// time comp : O(n)
+// space comp : O(1)
 
 #include<stdio.h>
 #include<stdlib.h>

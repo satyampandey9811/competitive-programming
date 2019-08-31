@@ -1,5 +1,7 @@
 // linked list
 // reverse a linked list recursive
+// time comp : O(n)
+// space comp : O(n)
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -38,7 +40,7 @@ void print(){
 void reverse(struct Node* p){
 	if(p->next==NULL){
 		head=p;
-		return;
+		return; 
 	}
 	reverse(p->next);
 	struct Node* q=p->next;		// p->next->next=p;
