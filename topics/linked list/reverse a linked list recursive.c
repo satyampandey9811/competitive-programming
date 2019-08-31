@@ -41,8 +41,8 @@ void reverse(struct Node* p){
 		return;
 	}
 	reverse(p->next);
-	struct Node* q=p->next;
-	q->next=p;
+	struct Node* q=p->next;		// p->next->next=p;
+	q->next=p;					// q banane ki zaroorat hi nhi
 	p->next=NULL;
 }
 
