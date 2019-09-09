@@ -1,5 +1,5 @@
 // Binary search tree 
-// Level Order Traversal 
+// Breadth order traversal - Level Order Traversal 
 
 #include<iostream>
 #include<queue>
