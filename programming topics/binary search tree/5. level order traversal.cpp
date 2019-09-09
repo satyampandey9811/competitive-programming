@@ -1,5 +1,9 @@
 // Binary search tree 
 // Breadth order traversal - Level Order Traversal 
+// time comp : O(n)
+// space comp :
+// worst / average case : O(n)
+// best case : O(1)
 
 #include<iostream>
 #include<queue>
