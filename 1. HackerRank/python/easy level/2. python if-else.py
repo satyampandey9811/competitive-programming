@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/py-if-else/problem
+# link to question - https://www.hackerrank.com/challenges/py-if-else/problem
 
 #!/bin/python3
 
