@@ -1,4 +1,4 @@
-// link to question - https://leetcode.com/problems/find-common-characters/submissions/
+// link to question - https://leetcode.com/problems/find-common-characters/
 
 class Solution {
 public:       

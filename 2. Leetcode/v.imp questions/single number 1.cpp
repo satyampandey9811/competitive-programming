@@ -1,4 +1,4 @@
-// link to question - https://leetcode.com/problems/single-number/submissions/
+// link to question - https://leetcode.com/problems/single-number/
 
 class Solution {
 public:

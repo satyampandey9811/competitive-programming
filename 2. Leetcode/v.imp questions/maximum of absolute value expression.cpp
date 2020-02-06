@@ -1,4 +1,4 @@
-// link to question - https://leetcode.com/problems/maximum-of-absolute-value-expression/submissions/
+// link to question - https://leetcode.com/problems/maximum-of-absolute-value-expression/
 
 class Solution {
 public:
