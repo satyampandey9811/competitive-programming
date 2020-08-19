@@ -13,13 +13,19 @@
  */
 class Solution {
 public:
-    TreeNode* trimBST(TreeNode* root, int l, int r) {
-        if(!root) return root;
-        if(root -> val > r) return trimBST(root -> left, l, r);
-        if(root -> val < l) return trimBST(root -> right, l, r);
-        
-        root -> left = trimBST(root -> left, l, r);
-        root -> right = trimBST(root -> right, l, r);
-        return root;
+    int ans = INT_MAX;
+    
+    void go(TreeNode* root, int& val) {
+        if(!root) return;
+        go(root -> left, val);
+        ans = min(ans, abs(root -> val - val));
+        val = root -> val;
+        go(root -> right, val);
+    }
+    
+    int minDiffInBST(TreeNode* root) {
+        int val = 1e6;
+        go(root, val);
+        return ans;
     }
 };
