@@ -18,6 +18,7 @@
     "iterator": "cpp",
     "unordered_set": "cpp",
     "stack": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "functional": "cpp"
   }
 }
