@@ -19,6 +19,8 @@
     "unordered_set": "cpp",
     "stack": "cpp",
     "iosfwd": "cpp",
-    "functional": "cpp"
+    "functional": "cpp",
+    "algorithm": "cpp",
+    "random": "cpp"
   }
 }
