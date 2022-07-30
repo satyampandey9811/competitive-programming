@@ -21,6 +21,7 @@
     "iosfwd": "cpp",
     "functional": "cpp",
     "algorithm": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "list": "cpp"
   }
 }
